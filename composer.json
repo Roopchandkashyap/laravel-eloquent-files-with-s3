@@ -1,0 +1,21 @@
+{
+    "name": "Roopchandkashyap/laravel-eloquent-files-with-aws-s3",
+    "description": "File Handling with Eloquent Models and AWS Bucket S3 in Laravel",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roopchand Kashyap",
+            "email": "roop.nsa@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+			"Roopchandkashyap\\EloquentFiles\\": "src/"
+    	}
+    },
+    "minimum-stability": "stable"
+}
