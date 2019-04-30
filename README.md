@@ -2,12 +2,12 @@
 
 Installation using Composer:
 
-<code>composer require Roopchandkashyap/laravel-eloquent-files-with-aws-s3</code>
+<code>composer require roopchandkashyap/laravel-eloquent-files-with-aws-s3</code>
 
 
 Usage: 
 
-In your eloquent model use `\Roopchandkashyap\EloquentFiles\HasFile` trait and create a method for accessing file like below:
+In your eloquent model use `\roopchandkashyap\EloquentFiles\HasFile` trait and create a method for accessing file like below:
 
 <pre>
 
@@ -19,7 +19,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Member extends Model {
 
-	use \Roopchandkashyap\EloquentFiles\HasFile;
+	use \roopchandkashyap\EloquentFiles\HasFile;
 
 	function getImageAttribute() {
 		return $this->file_info("image_path");

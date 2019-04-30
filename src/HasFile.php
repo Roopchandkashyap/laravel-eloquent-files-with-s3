@@ -6,10 +6,10 @@
  * and open the template in the editor.
  */
 
-namespace Roopchandkashyap\EloquentFiles;
+namespace roopchandkashyap\EloquentFiles;
 
 use Illuminate\Support\Facades\Storage;
-use Roopchandkashyap\EloquentFiles\File as FileModel;
+use roopchandkashyap\EloquentFiles\File as FileModel;
 
 /**
  *

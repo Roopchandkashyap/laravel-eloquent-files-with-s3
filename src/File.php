@@ -1,6 +1,6 @@
 <?php
 
-namespace Roopchandkashyap\EloquentFiles;
+namespace roopchandkashyap\EloquentFiles;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\QueryException;

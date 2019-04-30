@@ -1,5 +1,5 @@
 {
-    "name": "Roopchandkashyap/laravel-eloquent-files-with-aws-s3",
+    "name": "roopchandkashyap/laravel-eloquent-files-with-aws-s3",
     "description": "File Handling with Eloquent Models and AWS Bucket S3 in Laravel",
     "type": "library",
     "require": {
@@ -14,7 +14,7 @@
     ],
     "autoload": {
     	"psr-4": {
-			"Roopchandkashyap\\EloquentFiles\\": "src/"
+			"roopchandkashyap\\EloquentFiles\\": "src/"
     	}
     },
     "minimum-stability": "stable"
